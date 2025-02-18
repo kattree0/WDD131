@@ -100,3 +100,17 @@ button{
     
 
 }
+
+.errorMsg {
+    color: rgb(65, 17, 17);
+    margin-top: 10px;
+    font-size: 14px;
+    display: none;
+    background-color: rgb(197, 197, 197,.5);
+    padding: 1em;
+    z-index: 2;
+   max-width: 200px;
+    position: absolute;
+    left: 420px;
+
+}
