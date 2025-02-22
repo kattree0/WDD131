@@ -1,0 +1,33 @@
+
+  @media screen and (min-width: 1050px) {
+    .artworks{
+        display: flex;
+        justify-items: center;
+        align-items: center;   
+        height: 100%; 
+        gap: 200px;
+        row-gap: 205px;
+    
+    }
+    .artworks div{
+        max-width: 400px;
+    }
+    .artworks img{
+        max-width: 250px;
+
+    }
+    .artworks h2{
+        font-size: 2rem;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+    .artworks p{
+        font-size: 1rem;
+    }
+
+
+
+  }
+

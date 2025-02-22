@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato");
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+
+body {
+    background-color: #0d0e20;
+    font-family: 'Lato', Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #f0f0f0; }
+
+form {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+    font-family: 'Lato', Helvetica, sans-serif;
+}
+
+fieldset {
+    border: 2px solid #c4a5e2;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+legend {
+    font-size: 1.5rem;
+    font-family: "Space Grotesk", sans-serif;
+    color: #0d0e20;
+    padding: 0.5rem;
+}
+label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #0d0e20;
+}
+
+input[type="text"],
+input[type="url"],
+input[type="date"],
+input[type="number"] {
+    width: 90%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border: 2px solid #8bb4a2;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #f7f7f7;
+    color: #0d0e20;
+    font-family: 'Lato', Helvetica, sans-serif;
+}
+
+input[type="text"]:focus,
+input[type="url"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus {
+    border-color: #c4a5e2;
+    outline: none;
+}
+button {
+    background-color: #c4a5e2;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #8bb4a2;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 2rem;
+    color: #c4a5e2;
+    margin-top: 2rem;
+}
+p {
+    margin-bottom: 1rem;
+}
+
+h2{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    form {
+        padding: 1.5rem;
+    }
+
+    button {
+        padding: 0.8rem 1.5rem;
+    }
+}

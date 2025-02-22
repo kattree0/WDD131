@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato");
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+
+
+img{
+    max-width: 100%;
+}
+main{
+    background-color: #e6f1eb;
+    margin:3%;
+    padding: 2rem;
+
+
+}
+body{
+    background-color: #0d0e20;
+    padding:0%;
+    margin: 0%;
+}
+
+header{
+    background-color: #c4a5e2;
+    padding: 1%;
+    margin: 0%;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-decoration: none;
+
+
+}
+    
+  
+  header li {
+    display: inline-block; 
+    padding-bottom: 1rem;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  header #lighting{
+    display: block; 
+    margin: 0 auto;
+    text-align: center;
+
+  }
+header img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100px;
+    padding: 1rem;
+    border-radius: 45px;
+}
+
+.artworks{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 75px;
+}
+ 
+.artworks  p{
+    display: block;
+    font-size: .82rem;
+    padding: .5rem;
+    font-family: Lato, Helvetica, sans-serif;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    color:  #0d0e20;
+    padding-left: .7rem;
+}
+h1{
+    text-align: center;
+    font-family: "Space Grotesk",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 1rem;
+}
+.artworks h2{
+    text-align: center;
+    padding-top: 6%;
+    font-family: "Space Grotesk",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.artworks img{
+    display: block;
+    border: 3px solid #8bb4a2;
+    max-width: 200px;
+    margin: 0 auto;
+ 
+
+}
+h3{
+    text-align: center;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    font-family: "Space Grotesk",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.artworks div{
+    max-width: 250px;
+    max-height: 575px;
+}
+h2{
+    text-align: center;
+    font-family: "Space Grotesk",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.newArts img{
+    max-width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+.miniNewArts{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    max-width: 100%;
+}
+.miniNewArts img{
+    max-width: 33%;
+
+}
+p{
+    max-width: 66ch;
+}
+
+.me{
+    max-width: 90%;
+    display: block;
+    margin: 0 auto;
+
+}
+.abtme{
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.abtme p{
+    margin: 5%;
+    padding-bottom: 1rem;
+}
+
+footer{
+    background-color: #b0e9d0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding: 2%;
+    flex-wrap: wrap;
+}
+footer img{
+    max-width: 50px;
+}
+
+.newartworkbutton {
+    width: 90%;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 150px;
+    font-size: 2em;
+    color: #0d0e20;
+    background-color: #c4a5e2;
+}
+button:hover {
+    background-color: #8bb4a2;
+}
+.darkb{
+    background-color: #000;
+}
+
+.darkm{
+    background-color: #0d0e20;
+    color: #fff;
+    
+}
+.darkm p{
+    color: #b0e9d0;
+
+}
+
+
+
+@media screen and (min-width: 800px) {
+    .artworks{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;   
+        height: 100%; 
+        gap: 40px;
+        row-gap: 125px
+    
+    }
+    .artworks div{
+        max-width: 300px;
+    }
+    .artworks img{
+        max-width: 250px;
+
+    }
+    .newartworkbutton{
+        height: 50px;
+    }
+  }
+
+
+  @media screen and (min-width: 1050px) {
+    .artworks{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;   
+        gap: 100px;
+        row-gap: 400px;
+        margin-bottom: 300px;
+    
+    }
+    .artworks div{
+        max-width: 900px;
+    }
+    .artworks p,h3{
+        max-width: 500px;
+        align-self: center;
+    }
+    .artworks img{
+        max-width: 400px;
+
+    }
+    .artworks h2{
+        font-size: 2rem;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+    .artworks p{
+        font-size: 1rem;
+    }
+    header{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        align-items: baseline;
+        justify-content: baseline;
+        padding-bottom: 1%;
+        max-height: 125px;
+
+    }
+    .nav-links{
+        grid-column: 4/5;
+    }
+
+    header img{
+        max-width: 100px;   
+         border-radius: 46px;
+
+    }
+    .logo{
+        
+        grid-column: 1/2;
+  
+
+    }
+    .miniNewArts img{
+        max-width: 300px;
+    
+    }
+    .abtme{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 125px;
+    }
+    .me{
+        grid-column: 1/2;
+        justify-self: baseline;
+    }
+    .abtme h3{
+        grid-column: 2/3;
+        text-align: center;
+    }
+    .abtme p{
+        max-width: 500px;
+    }
+
+
+
+  }
+
