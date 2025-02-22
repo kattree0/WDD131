@@ -172,6 +172,13 @@ a:visited{
     color: #1d1f41;
 }
 
+.darkm a{
+    color: rgb(0, 81, 255);
+}
+.darkm a:visited{
+    color: aqua;
+}
+
 .newartworkbutton {
     width: 90%;
     height: 100px;
@@ -314,4 +321,3 @@ button:hover {
 
   }
 
-/*github isnt properly adding these changing so I'm hoping adding this random comment will help it*/
