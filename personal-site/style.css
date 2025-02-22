@@ -44,13 +44,18 @@ header ul {
     padding-bottom: 1rem;
     padding: 0;
     text-decoration: none;
+    color: #0d0e20;
   }
 
   header #lighting{
     display: block; 
     margin: 0 auto;
     text-align: center;
-
+    background-color: #0d0e20;
+    color: #c4a5e2;
+    outline: #000;
+    border: none;
+    padding: .51rem;
   }
 header img{
     display: block;
@@ -96,6 +101,10 @@ h1{
     margin: 0 auto;
  
 
+}
+a{
+    text-decoration: none;
+    color: #000;
 }
 h3{
     text-align: center;
@@ -151,13 +160,16 @@ p{
 footer{
     background-color: #b0e9d0;
     display: flex;
-    justify-content: space-evenly;
-    align-items: baseline;
+    justify-content: space-between;
+    align-items: center;
     padding: 2%;
     flex-wrap: wrap;
 }
 footer img{
     max-width: 50px;
+}
+a:visited{
+    color: #1d1f41;
 }
 
 .newartworkbutton {
@@ -186,6 +198,7 @@ button:hover {
     color: #b0e9d0;
 
 }
+
 
 
 
@@ -247,14 +260,23 @@ button:hover {
     header{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        align-items: baseline;
-        justify-content: baseline;
+        align-items: center;
+        justify-content: center;
         padding-bottom: 1%;
         max-height: 125px;
 
     }
     .nav-links{
-        grid-column: 4/5;
+        margin-top: 6%;
+        grid-column: 3/4;
+        font-size: 2rem;
+    }
+    #lighting{
+        grid-column: 5/6;
+        height: 44px;
+        font-size: 2rem;
+        text-align: center;
+        padding: 0;
     }
 
     header img{
@@ -279,7 +301,6 @@ button:hover {
     }
     .me{
         grid-column: 1/2;
-        justify-self: baseline;
     }
     .abtme h3{
         grid-column: 2/3;

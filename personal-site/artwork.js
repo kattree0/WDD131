@@ -1,4 +1,3 @@
-//localStorage.clear();
 
 //makes it so objects get turned into string
 function setLocalStorage(key,data){
@@ -24,8 +23,6 @@ class NewArtwork{
 
 const form = document.querySelector("#artwork-form");
 
-//let z = new NewArtwork(form.name.value, form.artLink.value, form, form.date.value, form.time.value, form.program.value, form.desc.value);
-//localStorage.clear(); //remove later pls
 
 z = new NewArtwork("test","link","alt","date","time","program","yourmom");
 
@@ -57,7 +54,6 @@ function renderArtworks(artworks){
 }
 
 
-//come back and understand FULLY how this works pls
 function getArtworks(){
     let artworks = [];
 
@@ -65,6 +61,7 @@ function getArtworks(){
         let key = localStorage.key(i); 
         let value = localStorage.getItem(key);
 
+        //I love regular expressions :drooling_face:
         if (/^artwork/.test(key)) {
             value = getLocalStorage(key, value);
             
@@ -77,8 +74,17 @@ function getArtworks(){
     return artworks;
 }
 
+const button = document.querySelector(".newartworkbutton");
+
+if (button){
+    button.addEventListener("click", function() {
+    window.open('artwork-form.html', '_blank');
+});
+}
+
 
 if (form){
 form.addEventListener('submit', storeNewArtwork);}
+
 renderArtworks(getArtworks());
 

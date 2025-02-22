@@ -87,8 +87,30 @@ p {
     margin-bottom: 1rem;
 }
 
+.reload{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
 h2{
     text-align: center;
+}
+
+footer{
+    background-color: #2d4b3e;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+    flex-wrap: wrap;
+}
+
+a{
+    color: #fff;
+}
+
+a:visited{
+    color: rgb(181, 231, 223)
 }
 
 @media screen and (max-width: 600px) {
