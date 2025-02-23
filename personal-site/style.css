@@ -102,10 +102,7 @@ h1{
  
 
 }
-a{
-    text-decoration: none;
-    color: #000;
-}
+
 h3{
     text-align: center;
     padding-left: .5rem;
@@ -168,16 +165,24 @@ footer{
 footer img{
     max-width: 50px;
 }
-a:visited{
-    color: #1d1f41;
-}
 
-.darkm a{
+a{
     color: rgb(0, 81, 255);
+        text-decoration: none;
+
 }
-.darkm a:visited{
+a:visited{
     color: aqua;
 }
+
+header a:visited{
+    color: #1d1f41;
+}
+header a{
+    color: #000;
+}
+
+
 
 .newartworkbutton {
     width: 90%;
