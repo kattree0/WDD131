@@ -172,8 +172,12 @@ a{
 
 }
 a:visited{
+    color:purple;
+}
+.darkm a:visited{
     color: aqua;
 }
+
 
 header a:visited{
     color: #1d1f41;
